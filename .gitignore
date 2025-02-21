@@ -1,0 +1,15 @@
+# Exclude Go caches
+go.sum
+go.work
+go.work.sum
+
+# Exclude files from IDE GoLand (JetBrains)
+.idea/
+*.iml
+
+# Exclude temporary files and dependencies
+vendor/
+.DS_Store
+Thumbs.db
+*.swp
+tasks.json
